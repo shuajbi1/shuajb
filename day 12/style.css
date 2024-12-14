@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Metrim Preview";
+    src: url(metrim/MetrimLetter-Regular.ttf);
+}
+h1{
+ color: darkblue;
+letter-spacing: 20px;
+word-spacing: 40px;
+ 
+
+}
+p{
+ /* text-indent: 100px; */
+ /* text-align: center; */
+ /* font-family: "Metrim Preview"; */
+ font-size: medium;
+
+}
+h2{
+    text-decoration: overline;
+    color: chocolate;
+    font-style: italic;
+}
+h3{
+    text-decoration: line-through;
+    color: lime;
+    font-style: italic;
+}
+h4{
+    text-decoration: underline;
+    color: darkmagenta;
+    font-style: italic;
+}
+.p1{
+    color: blue;
+}
+
+#p2{
+    font-style: normal;
+    color: cadetblue;
+}
+#p3{
+    font-style: italic;
+    color: aqua;
+}
+#p4{
+    font-style: oblique;
+    color: lime;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: hotpink;
+}
+a:active{
+    color:black;
+}
