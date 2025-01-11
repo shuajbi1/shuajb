@@ -1,0 +1,67 @@
+article{
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+
+
+/* 2. child selector selects direct children inside an element*/
+
+article > p{
+    background-color: red;
+}
+
+/* 3.general sibling combinator(~) - selects direct choldren inside an element */
+article ~ p{
+    background-color: purple;
+    color: white;
+    padding: 20px;
+}
+article + p{
+    background-color: orange;
+}
+/* :first-child - pseudo class we use it when we want to style the fist element */
+h1:first-child{
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+input:in-range{
+ border: 3px solid green 
+}
+input:out-of-range{
+    border: 3px solid red
+}
+input:required{
+    background-color: white;
+}
+input:focus{
+    background-color: yellow;
+} 
+input[name="name"]:valid{
+ border: 5px solid green;
+}
+input[name="name"]:invalid{
+    border: 5px solid red;
+}
+span:first-of-type{
+    background: black;
+    color: white;
+    padding: 20px;
+}
+#p1::first-line{
+    background: white;
+    color: blue;
+    font size: 40px;
+}
+/* #p1::before{
+    width: 20%;
+    content: url(done-icon.webp);
+} */
+ ::selection{
+    color: black;
+    background: beige;
+ }
+ div{
+    opacity: 0.5;
+ }
