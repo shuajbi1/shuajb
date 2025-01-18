@@ -1,0 +1,50 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+li{
+    float: left;
+    position: relative;
+
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+}
+li a:hover:not(.active){
+    background-color: lightpink;
+}
+.active{
+    background-color: rgb(79, 112, 152);
+}
+li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 0;
+    min-width: 160px;
+}
+li ul li{
+    float: none;
+}
+li ul li a{
+    padding: 10px 16px;
+}
+li ul li a:hover{
+    background-color: beige;
+}
+li:hover >ul{
+    display: block;
+}
+li ul li ul{
+    left: 100%;
+    top 0;
+}
