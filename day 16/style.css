@@ -31,3 +31,28 @@ div.desc{
     background-position: -500px 0;
 
 }
+a[href="https://shkolladigjitale.com/"] {
+    color: blue;
+    
+}
+p[class*="ds"]{
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+div[id~="ds"]{
+    background: green;
+    color: white;
+    padding: 20px;
+}
+h1[class |="heading"]{
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+input[placeholder $="name"]{
+    border: 2px solid red;
+}
+input[readonly]{
+    border: 2px solid green; 
+}
