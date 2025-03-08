@@ -91,3 +91,75 @@ nav ul li.active{
 .service img{
     width: 200px;
 }
+#section3{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+    background-color: #8f5702;
+}
+#contact-form{
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-row{
+    display: flex;
+}
+input[type="text"],input[type="email"]{
+    width: 46%;
+    height: 56%;
+}
+input[type="text"],input[type="email"], textarea{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    background-color: #dc8c14;
+    border: none;
+    font-size: 19px;
+    margin: 16px;
+    border-radius: 6px;
+    padding-left: 26px;
+}
+textarea{
+    height: 200px;
+    width: 100px;
+    padding-top: 24px;
+}
+input[type="submit"]{
+    background-color: #dc8c14;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.big-button{
+    padding: 25px 85px;
+    color: rgb(99, 68, 1);
+}
+.footer{
+    background-color: #273a71;
+}
+.footer-links{
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer ul{
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+}
+.footer-links ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color: rgb(233, 157, 17);
+    font-size: 24px;
+}
