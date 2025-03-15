@@ -164,7 +164,7 @@ footer ul{
     font-size: 24px;
 }
 
-@media only screen and (max-widh:800px){
+@media only screen and (max-width:800px){
     header{
         flex-direction: column;
     }
@@ -195,5 +195,29 @@ footer ul{
     nav ul{
         padding-left: 0;
     }
+    .service{
+        width: 100;
+    }
+    .services-box{
+        flex-direction: column;
+    }
+    .title-box{
+        width: 90%;
+    }
+    .form-row{
+        flex-direction: column;
+    }
+    input[type="text"],input[type="email"], textarea{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer ul{
+        flex-direction: column;
+    }
+    footer ul li{
+        text-align: center;
+    }
+
 
 }
