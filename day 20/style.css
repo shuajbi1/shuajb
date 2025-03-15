@@ -163,3 +163,37 @@ footer ul{
     color: rgb(233, 157, 17);
     font-size: 24px;
 }
+
+@media only screen and (max-widh:800px){
+    header{
+        flex-direction: column;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+    header img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-heading h1{
+        font-size: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-heading a{
+        margin-top: 0;
+        padding: 25px;
+    }
+    .main-heading{
+        margin-top: 0;
+    }
+    nav ul li .active{
+        padding-right: 0;
+    }
+    nav ul{
+        padding-left: 0;
+    }
+
+}
