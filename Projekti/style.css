@@ -1,0 +1,92 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;  /* Stack elements vertically */
+    height: 100%;  /* Full height for the page */
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 70px;
+  }
+  
+  .navbar-list li {
+    margin: 0 15px;
+  }
+  
+  .navbar-list a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-size: 16px;
+  }
+  
+  .navbar-list a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
+  .active {
+    background-color: rgb(44, 44, 236);
+  }
+  
+  /* Main content */
+  h1 {
+    text-align: center;
+    margin-top: 100px;  /* Add top margin to create space from the top */
+    font-size: 24px;
+  }
+  
+  /* Button styling */
+  #button {
+    text-decoration: none;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;  /* Adjust the space above */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Hero section */
+  #hero {
+    float: right; /* This may cause layout issues, better with flex */
+    margin-top: 50px;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically (if the height of footer is significant) */
+    height: 200px; /* Adjust the height of the footer */
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;  /* Push the footer to the bottom of the page */
+    position: relative; /* Ensure it's not absolute */
+  }
+  
