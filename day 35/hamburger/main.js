@@ -14,6 +14,7 @@ function search(){
     ul = document.getElementById("mylist");
     li = ul.getElementsByTagName("li");
     
+    
     for (i = 0; i < li.length; i++) {
         a = li[i];
        txtValue = a.textContent || a.innerText;
