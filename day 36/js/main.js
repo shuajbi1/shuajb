@@ -44,7 +44,16 @@ $('#btn4').click(function(){
 
 $('#btn3').click(function(){
     $('.hidden').show();
+
     
+})
+
+$('#square').click(function(){
+    $('#square').animate({
+        'left': '+=50px',
+        'opacity': 0.25,
+        'fontSize': '50px'
+    })
 })
 
 /*
@@ -57,8 +66,11 @@ $('#btn3').click(function(){
  resize
 */
 
+$('#sort').sortable();
 
+$(function(){
+    $("#accordion").accordion();
+    
+})
 
-
-
-
+$('#tabs').tabs();
